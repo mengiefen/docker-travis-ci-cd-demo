@@ -9,4 +9,7 @@ async function main() {
   }
 }
 
+const favoriteColor = process.env.FAVORITE_COLOR;
+console.log(`My favorite color is ${favoriteColor}`);
+
 main();
